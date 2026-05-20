@@ -1,0 +1,10 @@
+{
+  "name": "@djed-ice/shared",
+  "version": "0.1.0",
+  "private": true,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "echo \"Shared build placeholder. Add tsup/tsc when dependencies are installed.\""
+  }
+}

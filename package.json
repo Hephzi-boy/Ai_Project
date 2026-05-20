@@ -1,0 +1,26 @@
+{
+  "name": "djed-ice",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Hospital AI infrastructure monorepo scaffold",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:backend": "npm --workspace @djed-ice/backend run dev",
+    "dev:web": "npm --workspace @djed-ice/web-dashboard run dev",
+    "build:shared": "npm --workspace @djed-ice/shared run build"
+  },
+  "keywords": [
+    "monorepo",
+    "healthtech",
+    "ai"
+  ],
+  "author": "Djed-Ice",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.105.4",
+    "openai": "^6.38.0"
+  }
+}

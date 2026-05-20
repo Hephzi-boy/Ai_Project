@@ -1,0 +1,8 @@
+{
+  "name": "@djed-ice/web-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "echo \"Dashboard scaffold placeholder. Initialize Next.js when network/deps are ready.\""
+  }
+}
